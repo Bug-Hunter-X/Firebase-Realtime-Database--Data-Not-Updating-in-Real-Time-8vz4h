@@ -1,0 +1,1 @@
+This repository demonstrates a bug encountered with Firebase Realtime Database where data updates are not reflected in real-time despite successful write operations. The `bug.js` file shows the initial implementation that caused the problem. The `bugSolution.js` file contains the corrected code.  The issue stemmed from incorrect use of `on()` event listeners and a race condition.
